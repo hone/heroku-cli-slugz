@@ -10,5 +10,6 @@ exports.topic = {
 };
 
 exports.commands = [
-  require('./commands/index.js')(TOPIC)
+  require('./commands/index.js')(TOPIC),
+  require('./commands/download.js')(TOPIC)
 ];
